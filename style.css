@@ -87,8 +87,9 @@ ul {
 }
 
 .li {
+    width: auto;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     justify-content: space-between;
     gap: 0.5rem;
     background: transparent;
@@ -108,4 +109,6 @@ ul {
     height: auto;
     cursor: pointer;
     background: none;
+    position: relative;
+    right: 0.5erm; 
 }

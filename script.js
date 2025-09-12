@@ -13,7 +13,7 @@ const addTask = (e) => {
 
     let li = document.createElement("li");
     li.innerHTML = `<input type="checkbox" class="checkBox">
-                    <p>${arr[0]}<p>
+                    <p>${arr[0]}</p>
                     <button class="remove">
                     <i class="fa-solid fa-trash-can delete-icon"></i>
                     </button>`;
